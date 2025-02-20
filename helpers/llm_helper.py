@@ -1,6 +1,6 @@
 from ollama import Client
 
-from config import Config
+from configs.config import Config
 
 system_prompt = Config.SYSTEM_PROMPT
 
